@@ -15,7 +15,8 @@ const Logo = ({ theme }: NavTheme) => {
                 relative w-8 h-8 overflow-hidden rounded-full
                 `}>
                     <Image
-                        src="images/comcerc-logo.png"
+                        fill
+                        src="/images/comcerc-logo.png"
                         alt="comcerc"
                         className={`object-cover w-full hfull`}
                     />
