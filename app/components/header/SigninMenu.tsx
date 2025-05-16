@@ -8,7 +8,7 @@ const SigninMenu = ({ openNav, navBg }: NavProps) => {
             >
                 <HiBars3BottomRight
                     onClick={openNav}
-                    className={`${navBg ? 'text-black' : 'text-white'} w-8 h-8 cursor-pointer`}
+                    className={`${navBg ? 'text-white' : 'text-white'} w-8 h-8 cursor-pointer`}
                 />
             </div>
         </>

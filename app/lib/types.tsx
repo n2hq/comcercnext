@@ -10,3 +10,8 @@ export type NavTheme = {
 export type CenterNavProps = {
     navBg: boolean
 }
+
+export type MobileNavProps = {
+    showNav: boolean
+    closeNav: () => void
+}

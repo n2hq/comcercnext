@@ -1,21 +1,22 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import AppNav from './AppNav'
+import MobileNav from '../MobileNav'
 
 
 const ResponsiveNav = () => {
     const [showNav, setShowNav] = useState(false)
+    const [navBg] = useState(false)
     const openNav = () => setShowNav(true)
     const closeNav = () => setShowNav(false)
 
-    useEffect(() => {
-        closeNav()
-    }, [showNav])
+
 
     return (
         <div>
-            <AppNav openNav={openNav} navBg={false} />
+            <AppNav openNav={openNav} navBg={navBg} />
+            <MobileNav showNav={showNav} closeNav={closeNav} />
         </div>
     )
 }

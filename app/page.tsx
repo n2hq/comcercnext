@@ -6,6 +6,7 @@ export default function index() {
     <div>
       <ResponseiveNav />
       <Home />
+
     </div>
   );
 }
