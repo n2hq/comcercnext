@@ -1,5 +1,10 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
+  "/api/listing/featured_listing/route": "/api/listing/featured_listing",
+  "/api/listing/search/route": "/api/listing/search",
   "/_not-found/page": "/_not-found",
-  "/page": "/"
+  "/api/listing/route": "/api/listing",
+  "/favicon.ico/route": "/favicon.ico",
+  "/api/listing/[id]/route": "/api/listing/[id]",
+  "/page": "/",
+  "/search/page": "/search"
 }

@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev:dev": "env-cmd -f .env.dev node ./server.js",
-    "dev:prod": "cross-env NODE_ENV=production env-cmd -f .env.prod node ./server.js",
+    "dev:dev": "env-cmd -f ./.env.dev node ./server.js",
+    "dev:prod": "cross-env NODE_ENV=production env-cmd -f ./.env.prod node ./server.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production env-cmd -f .env node ./server.js",
+    "start": "cross-env NODE_ENV=production env-cmd -f ./.env node ./server.js",
     "lint": "next lint"
   },
   "dependencies": {

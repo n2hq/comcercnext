@@ -14,7 +14,7 @@ const CenterNav = ({ navBg }: CenterNavProps) => {
                             <Link key={index} href={link.url}>
                                 <span className={`${navBg ? 'text-white' : 'text-white'}
                                 font-normal tracking-tight text-[14px] font-sans
-                                hover:text-black/40`}>
+                                hover:text-white/40`}>
                                     {link.label}
                                 </span>
                             </Link>

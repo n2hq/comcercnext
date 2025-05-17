@@ -12,10 +12,11 @@ const Logo = ({ theme }: NavTheme) => {
         <div className={`flex place-items-center space-x-1`}>
             <Link href="/">
                 <div className={`${theme === 'light' ? 'bg-black text-white' : 'bg-white/90 text-black'}
-                relative w-8 h-8 overflow-hidden rounded-full
+                relative w-8 h-8 
                 `}>
                     <Image
-                        fill
+                        width={100}
+                        height={100}
                         src="/images/comcerc-logo.png"
                         alt="comcerc"
                         className={`object-cover w-full hfull`}
